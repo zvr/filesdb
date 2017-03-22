@@ -1,0 +1,14 @@
+Storage
+-------
+
+All the information is stored into an SQL database.
+
+Individual SQLite files seem to be
+the perfect point between functionality and complexity,
+allowing all operations on data
+and easy transfer between systems.
+
+All the command-line utilities should accept
+a "-d|--database <arg>" to specify the location
+of this file.
+

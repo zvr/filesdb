@@ -1,0 +1,18 @@
+Commands
+--------
+
+The exact set of commands will be determined later.
+
+However, the following should give a reasonable first approach.
+
+The commands can be implemented as subcommands,
+like in git.
+
+h|help			provide help
+v|version		display the software version
+l|list			list all scans in a database
+st|stats		display statistics about the DB contents
+sc|scan			scan a location and add to the database
+qs|quickscan		quick-scan a location (ignore hashes) and add to the DB
+f|find|s|search:	search for a file, according to criteria
+

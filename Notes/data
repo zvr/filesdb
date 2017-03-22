@@ -1,0 +1,24 @@
+Data
+----
+
+The following data should be stored for each file:
+- name
+- size
+- full path (relative to scan point)
+- a number of hashes (md5, sha-1, xxh32, xxh64, git-sha, ssdeep, sdhash, ...)
+- basename
+- extension
+- dirname
+
+Less useful data that can also be stored:
+ - permissions
+ - dates (creation, modification, access)
+
+Each database should also keep track
+of all the commands (scans) that were used
+to add content.
+
+The data model should be extensible
+(for example, more hashes may be added in later versions),
+so the data storage should take this parameter into account.
+
