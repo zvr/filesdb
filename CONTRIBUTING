@@ -1,0 +1,24 @@
+Everyone is welcome to contribute!
+
+
+Coding Standards
+
+The software is in Python (Python 3) and/or C (C11).
+Please take care to maintain the coding standards
+of already existing code.
+
+[TODO: mention tool setup for automatic checking of coding standards;
+ pylint and indent configuration]
+
+
+License and IP
+
+The software is released under a BSD-2-Clause license.
+The complete text of the license is in the file named "LICENSE"
+on the top-level directory.
+
+There is no copyright assignement, nor a CLA for participating
+on this project.  Each contriburor maintains authorship of their code.
+
+In case you want to contribute code by someone else,
+please put it into a separate directory under the "3rd_party" tree.

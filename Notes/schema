@@ -1,0 +1,34 @@
+
+               +------------+
+ +--------+    |  scanned   |                     +-----------------+
+ |  file  |    | id         |    +-----------+    |  scanrun_X_tag  |
+ | id     |--->| file_id    |    |  scanrun  |    | id              |
+ | name   |    | scanrun_id |<---| id        |--->| scanrun_id      |
+ | path   |    | hash_id    |<-\ | when      |    | tag_id          |<--\
+ | size   |    +------------+  | | args      |    +-----------------+   |
+ +--------+                    | +-----------+              +-------+   |
+                               |                            |  tag  |   |
+                               | +-------------+            | id    |---/
+               +------------+  | |  hash       |            | name  |
+               |  hashtype  |  \-| id          |            +-------+
+               | id         |--->| hashtype_id |
+               | name       |    +-------------+
+               | size       |
+               +------------+                     |
+                                                  |
+ +--------------+                                 |
+ |  scanerror   |    -----------------------------/
+ | id           |   /
+ | scanrun_id   |<-/  +-------------+
+ | path         |     |  errortype  |
+ | errortype_id |<--- | id          |
+ | details      |     | name        |
+ +--------------+     +-------------+
+
+ +--------------+
+ |  db_version  |
+ | id           |
+ | valid_from   |
+ | valid_till   |
+ +--------------+
+
