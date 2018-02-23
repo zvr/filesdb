@@ -12,8 +12,12 @@
 * creator
 * dates(creation, last modification, last access)
 
-## Commands: 
-
+## Commands
+### Per file
+  * Print (size, full path, hash, basename, dirname, permissions, creator, dates) of given file. <br />
+  -> fl(file info) | filename| type. Type will be s or size etc
+  
+  
   -> Find files with x size(more | less | equal)
   -> Print all files(print important informations)
   -> Print informations for a file(size,path,...)
