@@ -39,7 +39,7 @@
    * Print files in the same directory <br />
    -> Command: pfd|directory or print files directory|directory
    
-   * Print files with same extensions etc. Type will be creator, hashes etc.
+   * Print files with same extensions etc. Type will be creator, hashes etc. <br />
    -> Command: pfe|type|arguments or print files extension|type|arguments
    Example: Print all files from the same director. Command will be: pfe|creator|nikos
   
