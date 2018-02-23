@@ -18,7 +18,7 @@
   -> Command: h or help
 
   * Print (size, full path, hash, basename, dirname, permissions, creator, dates) of given file. <br />
-  -> Command: fl|filename|type of file info|filename|type
+  -> Command: psf|filename|type or print single file|filename|type
   
   * Print version <br/>
   -> Command: v or version
@@ -29,24 +29,28 @@
   * Delete file from the database <br />
   -> Command: delete|filename or d|filename
   
-  
 ### Advance commands 
-  -> Find files with x size(more | less | equal)
-  -> Print all files(print important informations)
-  -> Print informations for a file(size,path,...)
-  -> Print files in same directory 
-  -> Print x files that have been modified in last 1 hour
-  -> Print all .txt files etc
-  -> Print all files from a specific creator 
-  -> 
+   * Print all files or print x files. Last argument isn't necessary. Only usefull informations will be printed <br />
+   -> Command: print all files|count or paf|count 
+   
+   * Print file with x size(more,less,equal). Type will be 1, 2,3  or more,less,equal <br />
+   -> Command: print file size|size|type or pfs|size|type
+   
+   * Print files in the same directory <br />
+   -> Command: pfd|directory or print files directory|directory
+   
+   * Print files with same extensions etc. Type will be creator, hashes etc.
+   -> Command: pfe|type|arguments or print files extension|type|arguments
+   Example: Print all files from the same director. Command will be: pfe|creator|nikos
   
 ## Notes
-1. Commands should work with upper or lower case
+1. Commands should work with upper or lower case input
 
 
+<!---
 Αρχικά έχουμε διάφορα αρχεία και θέλουμε να μπορούμε να εξάγουμε διάφορες πληροφορίες από αυτά τα αρχεία και να αποθηκεύουμε σε μια βάση 
 τα αποτελέσματα.
-  
+-->
   
   
   
