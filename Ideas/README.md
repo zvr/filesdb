@@ -14,19 +14,19 @@
 
 ## Commands
 ### Basic commands
-  * Print available commands
+  * Print available commands <br />
   -> Command: h or help
 
   * Print (size, full path, hash, basename, dirname, permissions, creator, dates) of given file. <br />
   -> Command: fl|filename|type of file info|filename|type
   
-  * Print version
+  * Print version <br/>
   -> Command: v or version
   
-  * Scan a specific location. Read files and store informations 
+  * Scan a specific location. Read files and store informations <br />
   -> Command: scan|location or sc|location
   
-  * Delete file from the database
+  * Delete file from the database <br />
   -> Command: delete|filename or d|filename
   
   
