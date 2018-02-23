@@ -13,11 +13,24 @@
 * dates(creation, last modification, last access)
 
 ## Commands
-### Per file
+### Basic commands
+  * Print available commands
+  -> Command: h or help
+
   * Print (size, full path, hash, basename, dirname, permissions, creator, dates) of given file. <br />
-  -> fl(file info) | filename| type. Type will be s or size etc
+  -> Command: fl|filename|type of file info|filename|type
+  
+  * Print version
+  -> Command: v or version
+  
+  * Scan a specific location. Read files and store informations 
+  -> Command: scan|location or sc|location
+  
+  * Delete file from the database
+  -> Command: 
   
   
+### Advance commands 
   -> Find files with x size(more | less | equal)
   -> Print all files(print important informations)
   -> Print informations for a file(size,path,...)
@@ -28,7 +41,9 @@
   -> 
   
 ## Notes
-  
+1. Commands should work with upper or lower case
+
+
 Αρχικά έχουμε διάφορα αρχεία και θέλουμε να μπορούμε να εξάγουμε διάφορες πληροφορίες από αυτά τα αρχεία και να αποθηκεύουμε σε μια βάση 
 τα αποτελέσματα.
   
