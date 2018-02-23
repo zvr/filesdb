@@ -27,7 +27,7 @@
   -> Command: scan|location or sc|location
   
   * Delete file from the database
-  -> Command: 
+  -> Command: delete|filename or d|filename
   
   
 ### Advance commands 
