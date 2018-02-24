@@ -29,7 +29,7 @@
   * Delete file from the database <br />
   -> Command: delete|filename or d|filename
   
-  * Update database. Files may have change. Update command should have "a clever mechanism". Database may be huge. <br />
+  * Update database. Files may have change. Update command should have "a cleaver mechanism". Database may be huge. <br />
   There must be many versions of update command. <br />
   -> Command: update or u
   
